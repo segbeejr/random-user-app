@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #dddad7;
+  }
+  
+  .card-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .cardOne {
+    display: grid;
+    height: 40vh;
+    width: 20vw;
+    place-content: center;
+    margin: 1rem;
+    box-shadow: 1.5px 1.5px 1.5px 1.5px #f6851e;
+    border-radius: 5px;
+    background-color: #dddad7;
+  }
+  
+  .rowOne {
+    display: flex;
+    padding: 2rem;
+    box-shadow: 1.5px 1.5px 1.5px 1.5px #f6851e;
+    border-radius: 5px;
+    background-color: #00001a;
+  }
+  
+  h1 {
+    margin-top: 3rem;
+  }
+  
+  img,
+  #userImage1,
+  #userImage2,
+  #userImage3 {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    box-shadow: 1px 1px 1px 1px #f6851e;
+    margin-bottom: 4px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 1rem;
+  }
+  
+  .generateUserBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  button {
+    padding: 0.5rem;
+    box-shadow: 1.5px 1.5px 1.5px 1.5px #00001a;
+    width: 10rem;
+    font-size: 20px;
+    margin-top: 10px;
+    background-color: #dddad7;
+    border-radius: 5px;
+  }
+  
+  /* Media Queries */
+  
+  @media screen and (max-width: 768px) {
+    .rowOne {
+        flex-wrap: wrap;
+    }
+
+    .cardOne {
+        height: 50vh;
+        width: 40vw;
+    }
+    
+    img,
+    #userImage1,
+    #userImage2,
+    #userImage3 {
+        height: 150px;
+        width: 150px;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        margin-bottom: 1rem;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .rowOne {
+        flex-wrap: wrap;
+    }
+    
+    .cardOne {
+        height: 50vh;
+        width: 70vw;
+    }
+    
+    img,
+    #userImage1,
+    #userImage2,
+    #userImage3 {
+        height: 120px;
+        width: 120px;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        margin-bottom: 1rem;
+    }
+  }
+  
