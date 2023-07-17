@@ -17,7 +17,7 @@
   
   .cardOne {
     display: grid;
-    height: 40vh;
+    height: 45vh;
     width: 20vw;
     place-content: center;
     margin: 1rem;
